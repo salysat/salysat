@@ -1,24 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-label="Mohamed Nabil software architect profile header">
-<defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070d1b"/><stop offset="0.58" stop-color="#111730"/><stop offset="1" stop-color="#0a1020"/></linearGradient>
- <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#70e1f5"/><stop offset="0.5" stop-color="#9c84ff"/><stop offset="1" stop-color="#f4a8dd"/></linearGradient>
- <radialGradient id="glow"><stop stop-color="#6d62dd" stop-opacity="0.34"/><stop offset="1" stop-color="#6d62dd" stop-opacity="0"/></radialGradient>
- <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" stroke="#8298c2" stroke-opacity="0.10" fill="none"/></pattern>
-</defs>
-<rect width="1200" height="310" rx="24" fill="url(#bg)"/><rect width="1200" height="310" rx="24" fill="url(#grid)"/>
-<circle cx="1000" cy="144" r="285" fill="url(#glow)"/>
-<rect x="53" y="48" width="198" height="28" rx="14" fill="#18273c" stroke="#4d6e88" stroke-opacity=".65"/>
-<circle cx="70" cy="62" r="5" fill="#52edc6"/><text x="84" y="67" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#b4c9e8" letter-spacing="1.3">BUILD • DESIGN • LEAD</text>
-<text x="52" y="147" font-family="Arial, sans-serif" font-weight="800" font-size="63" fill="#f3f7ff">MOHAMED <tspan fill="url(#ac)">NABIL</tspan></text>
-<text x="55" y="188" font-family="Arial, sans-serif" font-size="24" font-weight="500" fill="#b9cae5">Software Architect  /  .NET Team Lead</text>
-<rect x="54" y="211" width="548" height="2" rx="1" fill="url(#ac)"/>
-<text x="55" y="246" font-family="Arial, sans-serif" font-size="17" fill="#8ea7c8">Enterprise Systems  •  Full-Stack Engineering  •  AI Exploration</text>
-<g transform="translate(858 66)" fill="none" stroke-linecap="round" stroke-linejoin="round">
-<rect x="0" y="0" width="247" height="179" rx="18" stroke="#6d8fd1" stroke-opacity=".45" fill="#101b32"/>
-<circle cx="21" cy="21" r="5" fill="#f58d9a" stroke="none"/><circle cx="39" cy="21" r="5" fill="#eecb74" stroke="none"/><circle cx="57" cy="21" r="5" fill="#5ddab0" stroke="none"/>
-<path d="M18 40H230" stroke="#6d8fd1" stroke-opacity=".32"/>
-<path d="M54 71L37 90L54 109M191 71L208 90L191 109" stroke="#78d8f5" stroke-width="5"/>
-<path d="M143 62L103 119" stroke="#b7a3ff" stroke-width="5"/>
-<path d="M33 143H115M33 155H166" stroke="#4b668d" stroke-width="5"/>
-</g>
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mohamed Nabil profile header">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="0.5" stop-color="#131C35"/>
+      <stop offset="1" stop-color="#1A1533"/>
+    </linearGradient>
+    <linearGradient id="goldBlue" x1="80" y1="70" x2="980" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8C58A"/>
+      <stop offset="0.55" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#9AD7FF"/>
+    </linearGradient>
+    <linearGradient id="glassStroke" x1="850" y1="90" x2="1180" y2="290" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8C58A" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#9AD7FF" stop-opacity="0.45"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="90" y1="252" x2="630" y2="252" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9AD7FF"/>
+      <stop offset="1" stop-color="#E8C58A"/>
+    </linearGradient>
+    <filter id="blur1" x="930" y="-40" width="320" height="320" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="55"/>
+    </filter>
+    <filter id="shadow" x="830" y="70" width="390" height="260" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#FFFFFF" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="420" rx="28" fill="url(#grid)"/>
+  <circle cx="1090" cy="110" r="90" fill="#9AD7FF" fill-opacity="0.12" filter="url(#blur1)"/>
+  <circle cx="950" cy="310" r="120" fill="#E8C58A" fill-opacity="0.08"/>
+
+  <rect x="60" y="58" width="188" height="34" rx="17" fill="#1D2944" stroke="#32456B"/>
+  <circle cx="82" cy="75" r="6" fill="#9AD7FF"/>
+  <text x="98" y="81" fill="#DDE7F5" font-family="Segoe UI, Arial, sans-serif" font-size="14" letter-spacing="2">BUILD • DESIGN • LEAD</text>
+
+  <text x="60" y="165" fill="url(#goldBlue)" font-family="Segoe UI, Arial, sans-serif" font-size="68" font-weight="800">MOHAMED NABIL</text>
+  <text x="60" y="215" fill="#D9E3F0" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="500">Software Architect / .NET Team Lead</text>
+  <rect x="60" y="242" width="520" height="4" rx="2" fill="url(#lineGrad)"/>
+  <text x="60" y="288" fill="#AEBFD4" font-family="Segoe UI, Arial, sans-serif" font-size="24">Enterprise Systems • Full-Stack Engineering • AI Exploration</text>
+
+  <g filter="url(#shadow)">
+    <rect x="850" y="78" width="320" height="180" rx="24" fill="#16233E" fill-opacity="0.72"/>
+    <rect x="850.75" y="78.75" width="318.5" height="178.5" rx="23.25" stroke="url(#glassStroke)" stroke-width="1.5"/>
+    <circle cx="883" cy="110" r="6" fill="#FF7C88"/>
+    <circle cx="908" cy="110" r="6" fill="#E8C58A"/>
+    <circle cx="933" cy="110" r="6" fill="#7BF0BF"/>
+    <path d="M890 138H1140" stroke="#32456B" stroke-width="2"/>
+    <path d="M922 175L892 205L922 235" stroke="#7ED3FF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1098 175L1128 205L1098 235" stroke="#7ED3FF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M995 235L1043 162" stroke="#D3A8FF" stroke-width="7" stroke-linecap="round"/>
+    <path d="M905 275H1010" stroke="#8AA8D4" stroke-width="7" stroke-linecap="round"/>
+    <path d="M905 298H960" stroke="#45618D" stroke-width="7" stroke-linecap="round"/>
+  </g>
 </svg>

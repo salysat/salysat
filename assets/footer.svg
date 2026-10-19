@@ -1,0 +1,15 @@
+<svg width="1280" height="120" viewBox="0 0 1280 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="footer banner">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1280" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E1527"/>
+      <stop offset="1" stop-color="#171E33"/>
+    </linearGradient>
+    <linearGradient id="ft" x1="360" y1="60" x2="920" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8C58A"/>
+      <stop offset="1" stop-color="#9AD7FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="120" rx="20" fill="url(#fbg)"/>
+  <text x="640" y="50" text-anchor="middle" fill="#C9D1D9" font-family="Segoe UI, Arial, sans-serif" font-size="24">Thanks for visiting my profile</text>
+  <text x="640" y="83" text-anchor="middle" fill="url(#ft)" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Let’s build useful software together.</text>
+</svg>
